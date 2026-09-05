@@ -1,0 +1,10 @@
+{
+  "id": "execintelligence-activator",
+  "name": "ExecIntelligence Activator",
+  "version": "3.0.1",
+  "minAppVersion": "1.5.0",
+  "description": "One-click installer for ExecIntelligence. Enter your licence to download and install your private ExecIntelligence build. Works on iPad and iPhone as well as desktop. Holds no proprietary code itself.",
+  "author": "S.K.E. Media",
+  "authorUrl": "https://execintelligence.ai",
+  "isDesktopOnly": false
+}
