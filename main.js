@@ -125,8 +125,9 @@ var ActivatorPlugin = class extends import_obsidian.Plugin {
     for (const file of FILES) {
       onStep(`downloading ${file}...`);
       const res = await (0, import_obsidian.requestUrl)({
-        url: `${base}/download?key=${encodeURIComponent(licence)}&file=${encodeURIComponent(file)}`,
+        url: `${base}/download?file=${encodeURIComponent(file)}`,
         method: "GET",
+        headers: { Authorization: `Bearer ${licence}` },
         throw: false
       });
       if (res.status !== 200) {
